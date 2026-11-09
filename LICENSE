@@ -1,0 +1,49 @@
+Swipe Scout License
+Copyright (c) 2026 hyperflux22. All rights reserved.
+
+This license applies to the Swipe Scout app (the APK files offered in this
+repository and its releases) and to all texts, images and other content in
+this repository (together: "the Software").
+
+1. YOU MAY
+   a) download, install and use the Software free of charge, privately or at work;
+   b) copy and pass on the Software to others, but only
+      - completely unchanged (the original APK file as published here),
+      - free of charge, and
+      - together with a clear note that it comes from Swipe Scout by hyperflux22,
+        including a link to https://github.com/hyperflux22/SwipeScout.
+
+2. YOU MAY NOT
+   a) change, adapt, translate or build on the Software, or create apps or
+      programs based on it;
+   b) decompile, disassemble or otherwise reverse engineer the Software, except
+      where the law expressly allows this despite this restriction;
+   c) sell, rent or license the Software, or make money with it in any other way,
+      for example by charging for downloads, bundling it with paid products or
+      showing advertising in or around it;
+   d) use the Software for harmful or illegal purposes, in particular to access,
+      spy on, delete or change other people's files or data without their consent;
+   e) remove or change this license, copyright notices or the name of the author;
+   f) publish the Software under your own name or claim that you made it.
+
+3. OWNERSHIP
+   The Software remains the property of hyperflux22. Only the rights expressly
+   granted above are given. All other rights are reserved. In particular, only
+   hyperflux22 may sell the Software or offer it in app stores.
+
+4. NO WARRANTY, LIMITATION OF LIABILITY
+   The Software is provided "as is", without warranty of any kind. It can move
+   and delete files. You use it at your own risk; make backups of important data.
+   To the extent permitted by law, hyperflux22 is not liable for any damage or
+   data loss arising from the use of the Software. This does not limit liability
+   for intent or gross negligence or any liability that cannot be excluded by law.
+
+5. TERMINATION
+   If you break these terms, your rights under this license end automatically.
+
+6. CONTACT
+   Questions, other uses or permissions: open an issue at
+   https://github.com/hyperflux22/SwipeScout/issues
+
+A German translation is available in LICENSE.de.md. If the two differ, this
+English version applies.
