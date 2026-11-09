@@ -9,6 +9,12 @@ Alle Versionen von Swipe Scout. Die Nummern folgen dieser Regel:
 
 Jede Version lässt sich unter [Releases](https://github.com/hyperflux22/SwipeScout/releases) als APK herunterladen.
 
+## 3.1 – Neues Icon, „Über“, ordentlichere Kästchen
+
+- **Neues App-Icon:** eine Foto-Karte, die gewischt wird, auf blauem Verlauf.
+- **Über Swipe Scout** im Menü ⋮: Version, Link zur Webseite mit Downloads, Fehler oder Idee melden.
+- Die Kästchen auf einer Karte (Format, Größe, Quelle, versteckt …) rutschen jetzt in eine zweite Zeile, statt abgeschnitten zu werden.
+
 ## 3.0 – Papierkorb, intelligente Suche, Statistik, Hell/Dunkel
 
 - **Papierkorb:** Löschen verschiebt zuerst in den Papierkorb; wiederherstellbar.

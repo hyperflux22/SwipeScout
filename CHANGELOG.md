@@ -9,6 +9,12 @@ All versions of Swipe Scout. The numbers follow this rule:
 
 Every version can be downloaded as an APK under [Releases](https://github.com/hyperflux22/SwipeScout/releases).
 
+## 3.1 – New icon, “About”, tidier labels
+
+- **New app icon:** a photo card being swiped, on a blue gradient.
+- **About Swipe Scout** in the menu ⋮: version, link to the website and downloads, report a bug or idea.
+- The labels on a card (format, size, source, hidden …) now wrap onto a second line instead of being cut off.
+
 ## 3.0 – Trash, smart search, statistics, light/dark
 
 - **Trash:** deleting moves files to the trash first; they can be restored.

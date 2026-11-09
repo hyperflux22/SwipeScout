@@ -1,6 +1,7 @@
 <p align="right"><a href="README.md">English</a> · <b>Deutsch</b></p>
 
 <p align="center">
+  <img src="docs/icon-512.png" width="96" alt="Swipe Scout icon"><br><br>
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-de-light.png">
     <img src="docs/banner-de-dark.png" alt="Swipe Scout – Bilder & Videos aufräumen per Wisch" width="100%">
@@ -14,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/APK_herunterladen-Version_3.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
+    <img src="https://img.shields.io/badge/APK_herunterladen-Version_3.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
   </a>
 </p>
 
@@ -232,6 +233,7 @@ Seit Android 11 erlaubt Android keiner App mehr den Zugriff auf diesen Ordner.
 
 | Version | Was neu ist |
 |---|---|
+| 3.1 | Neues App-Icon, „Über“ mit Link, Kästchen nicht mehr abgeschnitten |
 | **3.0** | Papierkorb mit einstellbarer Frist, doppelte/ähnliche/unscharfe Fotos, Sortierung, Speicherstatistik, Hell/Dunkel |
 | 2.1 | Android 16, Leiste „x aussortiert“ repariert |
 | **2.0** | Neuer Name Swipe Scout, 10 Sprachen, ZIP/Kopieren/Teilen |
