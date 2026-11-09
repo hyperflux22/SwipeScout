@@ -1,6 +1,7 @@
 <p align="right"><b>English</b> · <a href="README.de.md">Deutsch</a></p>
 
 <p align="center">
+  <img src="docs/icon-512.png" width="96" alt="Swipe Scout icon"><br><br>
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-en-light.png">
     <img src="docs/banner-en-dark.png" alt="Swipe Scout – clean up photos & videos with a swipe" width="100%">
@@ -14,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Version_3.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+    <img src="https://img.shields.io/badge/Download_APK-Version_3.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
   </a>
 </p>
 
@@ -231,6 +232,7 @@ Since Android 11, Android no longer allows any app to access this folder.
 
 | Version | What's new |
 |---|---|
+| 3.1 | New app icon, “About” with link, labels no longer cut off |
 | **3.0** | Trash with adjustable time limit, duplicate/similar/blurry photos, sort order, storage statistics, light/dark |
 | 2.1 | Android 16, fixed the “x sorted out” bar |
 | **2.0** | New name Swipe Scout, 10 languages, ZIP/copy/share |

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#3D4BD9"/></linearGradient></defs>
+<rect width="108" height="108" fill="url(#g)"/>
+<g transform="translate(8.640000000000002,8.640000000000002) scale(0.84)">
+ <g transform="rotate(-10 54 56)"><path d="M40,30 H64 A7,7 0 0 1 71,37 V73 A7,7 0 0 1 64,80 H40 A7,7 0 0 1 33,73 V37 A7,7 0 0 1 40,30 Z" fill="#fff" opacity="0.35"/></g>
+ <g transform="rotate(8 56 54)"><path d="M42,28 H68 A7,7 0 0 1 75,35 V73 A7,7 0 0 1 68,80 H42 A7,7 0 0 1 35,73 V35 A7,7 0 0 1 42,28 Z" fill="#fff"/><path d="M43,32 H67 A4,4 0 0 1 71,36 V58 A4,4 0 0 1 67,62 H43 A4,4 0 0 1 39,58 V36 A4,4 0 0 1 43,32 Z" fill="#DDE3FF"/><path d="M39,58 L49,46 L56,54 L61,48 L71,58 L71,62 L39,62 Z" fill="#5865F2"/><path d="M59,40 A4,4 0 1 0 67,40 A4,4 0 1 0 59,40 Z" fill="#FFB300"/><path d="M41,67 H57 A2,2 0 0 1 59,69 V69 A2,2 0 0 1 57,71 H41 A2,2 0 0 1 39,69 V69 A2,2 0 0 1 41,67 Z" fill="#C5CBEA"/></g>
+ <path d="M74,70 L84,76 L74,82 Z" fill="#fff"/>
+</g></svg>
