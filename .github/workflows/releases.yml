@@ -1,0 +1,38 @@
+name: Publish releases
+
+# Every folder in versions/ (e.g. versions/3.0/SwipeScout.apk) becomes a release "v3.0".
+# The release text is taken from that version's section in CHANGELOG.md.
+# Runs automatically when a new version folder is pushed to main.
+on:
+  push:
+    branches: [main]
+    paths: ["versions/**", "CHANGELOG.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Create or update releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          newest=$(ls versions | sort -V | tail -1)
+          for v in $(ls versions | sort -V); do
+            heading=$(grep -m1 "^## $v " CHANGELOG.md | sed "s/^## $v – //")
+            awk -v h="## $v " 'index($0, h) == 1 {on=1; next} /^## / {on=0} on' CHANGELOG.md > notes.md
+            printf '\n---\nInstall: download **SwipeScout.apk** below and open it on your phone. License: see LICENSE.\n' >> notes.md
+            title="Swipe Scout $v – ${heading:-Version $v}"
+            latest=false; [ "$v" = "$newest" ] && latest=true
+            if gh release view "v$v" > /dev/null 2>&1; then
+              gh release edit "v$v" --title "$title" --notes-file notes.md --latest=$latest
+              gh release upload "v$v" versions/$v/* --clobber
+            else
+              gh release create "v$v" versions/$v/* --title "$title" --notes-file notes.md --target "$GITHUB_SHA" --latest=$latest
+            fi
+            echo "v$v ok (latest=$latest)"
+          done
