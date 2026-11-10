@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/APK_herunterladen-Version_3.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
+    <img src="https://img.shields.io/badge/APK_herunterladen-Version_3.2-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
   </a>
 </p>
 
@@ -233,6 +233,7 @@ Seit Android 11 erlaubt Android keiner App mehr den Zugriff auf diesen Ordner.
 
 | Version | Was neu ist |
 |---|---|
+| 3.2 | Wartung, keine sichtbaren Änderungen |
 | 3.1 | Neues App-Icon, „Über“ mit Link, Kästchen nicht mehr abgeschnitten |
 | **3.0** | Papierkorb mit einstellbarer Frist, doppelte/ähnliche/unscharfe Fotos, Sortierung, Speicherstatistik, Hell/Dunkel |
 | 2.1 | Android 16, Leiste „x aussortiert“ repariert |

@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Version_3.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+    <img src="https://img.shields.io/badge/Download_APK-Version_3.2-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
   </a>
 </p>
 
@@ -232,6 +232,7 @@ Since Android 11, Android no longer allows any app to access this folder.
 
 | Version | What's new |
 |---|---|
+| 3.2 | Maintenance, no visible changes |
 | 3.1 | New app icon, “About” with link, labels no longer cut off |
 | **3.0** | Trash with adjustable time limit, duplicate/similar/blurry photos, sort order, storage statistics, light/dark |
 | 2.1 | Android 16, fixed the “x sorted out” bar |
