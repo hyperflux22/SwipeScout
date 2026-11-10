@@ -9,6 +9,10 @@ All versions of Swipe Scout. The numbers follow this rule:
 
 Every version can be downloaded as an APK under [Releases](https://github.com/hyperflux22/SwipeScout/releases).
 
+## 3.2 – Maintenance
+
+- Internal clean-up, no visible changes. Updates over 3.1 as usual.
+
 ## 3.1 – New icon, “About”, tidier labels
 
 - **New app icon:** a photo card being swiped, on a blue gradient.
