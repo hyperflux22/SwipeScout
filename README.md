@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Version_3.2-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+    <img src="https://img.shields.io/badge/Download_APK-Version_4.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
   </a>
 </p>
 
@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 8.0+">
   <img src="https://img.shields.io/badge/languages-10-6C7CFF" alt="10 languages">
   <img src="https://img.shields.io/badge/theme-light_%26_dark-6C7CFF" alt="Light & dark">
-  <img src="https://img.shields.io/badge/100%25-offline-43A047" alt="100 % offline">
+  <img src="https://img.shields.io/badge/Windows%20·%20Mac%20·%20Android-6C7CFF" alt="Windows · Mac · Android">
   <img src="https://img.shields.io/badge/ads-none-43A047" alt="No ads">
 </p>
 
@@ -33,6 +33,7 @@
 
 - [Why Swipe Scout?](#why-swipe-scout)
 - [Screenshots](#screenshots)
+- [Windows & Mac](#windows--mac)
 - [Install](#install)
 - [How it works](#how-it-works)
 - [All features](#all-features)
@@ -88,6 +89,50 @@ recognizes photos and videos **by their content** – and lets you sort them as 
     <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/08-sorted-out.png"><img src="docs/screenshots/en/dark/08-sorted-out.png" width="270"></picture><br><b>Sorted out</b><br><sub>Everything sorted out at a glance</sub></td>
   </tr>
 </table>
+
+## Windows & Mac
+
+Swipe Scout also runs on **Windows** and **Mac** – with all features of the phone app, plus things that are especially handy on a computer.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/1-sort.png"><img src="docs/screenshots/desktop/en/dark/1-sort.png" width="420"></picture><br><b>Sort with the arrow keys</b><br><sub>Large view, full path, “Show in folder”</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/2-all.png"><img src="docs/screenshots/desktop/en/dark/2-all.png" width="420"></picture><br><b>Overview</b><br><sub>Adjustable tile size, click to sort out</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/4-stats.png"><img src="docs/screenshots/desktop/en/dark/4-stats.png" width="420"></picture><br><b>Storage statistics</b><br><sub>What takes how much space</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/0-scan.png"><img src="docs/screenshots/desktop/en/dark/0-scan.png" width="420"></picture><br><b>Choose where to search</b><br><sub>User folder, all drives or your own folders</sub></td>
+  </tr>
+</table>
+
+| Key / mouse | Action |
+|---|---|
+| **←** | Keep |
+| **→** | Sort out |
+| **↑** | Later |
+| **↓** or **Ctrl+Z** | Undo |
+| **Space** | Play / pause video |
+| **+ / −** or **mouse wheel** | Zoom in / out |
+| **0** | Fit to window |
+| **1** | Original size (100 %) |
+| **Drag** | Move a zoomed image |
+| **Double-click** | Switch between 100 % and fit |
+
+- **Fit to window:** small images are reliably enlarged to the window size – also after resizing the window. Can be switched off (then at most original size).
+- **Always visible:** full path, source, dimensions and date, plus **Show in folder**, **Copy path** and **Open with default app**.
+- **Where to search:** your user folder, **all drives** (system folders are skipped) or **folders you choose**. Hidden files are found by the dot *and* by the Windows “hidden” attribute.
+- **Videos** (MP4, MOV, MKV, WebM, 3GP, AVI) play inside the app; **HEIC/AVIF** photos open too.
+
+### Install on a computer
+
+- **Windows:** download **`SwipeScout.msi`** from [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) and open it. Windows may show “Windows protected your PC” – click **More info → Run anyway** (the installer is not signed with a paid certificate).
+- **Mac (Apple Silicon, M1 or newer):** download **`SwipeScout.dmg`**, open it and drag **Swipe Scout** into **Applications**. On first start: **right-click the app → Open → Open** (or System Settings → Privacy & Security → “Open anyway”).
+
+### Updates
+
+On first start, the app asks whether it may look for updates. If yes, it checks the public repository briefly at every start; nothing about you is sent.
+- **Windows & Mac:** “New version available” → **Update now** – the app downloads, installs and restarts itself.
+- **Android:** “New version available” → **Update now** – the app downloads the new version and opens the Android installer; tap **Install** once, then **Open**. (Android does not allow apps outside the Play Store to replace themselves without this one tap.)
 
 ## Install
 
@@ -196,7 +241,7 @@ Everything is always scanned – the filter only decides what is shown, in every
 
 ## Privacy & safety
 
-- 📴 **100 % offline.** The app has no internet permission and sends nothing anywhere.
+- 📴 **Offline by default.** The app only goes online for the update check – and only if you allowed it on first start. Nothing about you or your files is sent.
 - 🚫 **No ads, no tracking, no account.**
 - 🗑️ **Nothing is deleted without you.** Swiping only marks files; deleting goes to the trash first.
 
@@ -232,6 +277,7 @@ Since Android 11, Android no longer allows any app to access this folder.
 
 | Version | What's new |
 |---|---|
+| **4.0** | **Windows & Mac version**, arrow keys, zoom and fit-to-window; update check with “Update now” on all platforms |
 | 3.2 | Maintenance, no visible changes |
 | 3.1 | New app icon, “About” with link, labels no longer cut off |
 | **3.0** | Trash with adjustable time limit, duplicate/similar/blurry photos, sort order, storage statistics, light/dark |

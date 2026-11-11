@@ -9,6 +9,20 @@ All versions of Swipe Scout. The numbers follow this rule:
 
 Every version can be downloaded as an APK under [Releases](https://github.com/hyperflux22/SwipeScout/releases).
 
+## 4.0 – Windows & Mac, updates
+
+- **New: Swipe Scout for Windows and Mac** with all features of the phone app.
+  - Sort with the **arrow keys** (← keep, → sort out, ↑ later, ↓ / Ctrl+Z undo).
+  - **Fit to window** – small images are reliably enlarged to the window size (can be switched off); zoom with the
+    mouse wheel or + / −, drag to move, double-click for 100 %.
+  - Full path, source, dimensions and date always visible; **Show in folder**, **Copy path**, **Open with default app**.
+  - Search the user folder, **all drives** or chosen folders; hidden files incl. the Windows “hidden” attribute.
+  - Videos and HEIC/AVIF via a built-in player.
+- **Update check** on Android, Windows and Mac: asks on first start; “New version available” → **Update now**.
+  Windows/Mac install and restart automatically; Android opens the installer (one tap).
+- Shared core for phone and computer (same detection, filters, duplicate search and trash).
+- New sources: Desktop, Documents, Cloud (OneDrive, iCloud …).
+
 ## 3.2 – Maintenance
 
 - Internal clean-up, no visible changes. Updates over 3.1 as usual.
