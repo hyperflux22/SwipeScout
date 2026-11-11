@@ -126,7 +126,7 @@ Swipe Scout also runs on **Windows** and **Mac** – with all features of the ph
 ### Install on a computer
 
 - **Windows:** download **`SwipeScout.msi`** from [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) and open it. Windows may show “Windows protected your PC” – click **More info → Run anyway** (the installer is not signed with a paid certificate).
-- **Mac (Apple Silicon, M1 or newer):** download **`SwipeScout.dmg`**, open it and drag **Swipe Scout** into **Applications**. On first start: **right-click the app → Open → Open** (or System Settings → Privacy & Security → “Open anyway”).
+- **Mac (Apple Silicon, M1 or newer) – follows shortly:** download **`SwipeScout.dmg`**, open it and drag **Swipe Scout** into **Applications**. On first start: **right-click the app → Open → Open** (or System Settings → Privacy & Security → “Open anyway”).
 
 ### Updates
 
