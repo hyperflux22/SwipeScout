@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/APK_herunterladen-Version_3.2-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
+    <img src="https://img.shields.io/badge/APK_herunterladen-Version_4.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
   </a>
 </p>
 
@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 8.0+">
   <img src="https://img.shields.io/badge/Sprachen-10-6C7CFF" alt="10 Sprachen">
   <img src="https://img.shields.io/badge/Design-hell_%26_dunkel-6C7CFF" alt="Hell & dunkel">
-  <img src="https://img.shields.io/badge/100%25-offline-43A047" alt="100 % offline">
+  <img src="https://img.shields.io/badge/Windows%20·%20Mac%20·%20Android-6C7CFF" alt="Windows · Mac · Android">
   <img src="https://img.shields.io/badge/Werbung-keine-43A047" alt="Keine Werbung">
 </p>
 
@@ -33,6 +33,7 @@
 
 - [Warum Swipe Scout?](#warum-swipe-scout)
 - [Bildschirmfotos](#bildschirmfotos)
+- [Windows & Mac](#windows--mac)
 - [Installieren](#installieren)
 - [So funktioniert's](#so-funktionierts)
 - [Alle Funktionen](#alle-funktionen)
@@ -88,6 +89,50 @@ erkennt Bilder und Videos **am Inhalt der Datei** – und du sortierst sie so sc
     <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/08-sorted-out.png"><img src="docs/screenshots/de/dark/08-sorted-out.png" width="270"></picture><br><b>Aussortiert</b><br><sub>Alles Aussortierte auf einen Blick</sub></td>
   </tr>
 </table>
+
+## Windows & Mac
+
+Swipe Scout läuft auch auf **Windows** und **Mac** – mit allen Funktionen der Handy-App und Extras, die am Computer besonders praktisch sind.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/1-sort.png"><img src="docs/screenshots/desktop/de/dark/1-sort.png" width="420"></picture><br><b>Sortieren mit Pfeiltasten</b><br><sub>Große Ansicht, voller Pfad, „Im Ordner zeigen“</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/2-all.png"><img src="docs/screenshots/desktop/de/dark/2-all.png" width="420"></picture><br><b>Übersicht</b><br><sub>Kachelgröße einstellbar, Klick zum Aussortieren</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/4-stats.png"><img src="docs/screenshots/desktop/de/dark/4-stats.png" width="420"></picture><br><b>Speicherstatistik</b><br><sub>Was wie viel Platz braucht</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/0-scan.png"><img src="docs/screenshots/desktop/de/dark/0-scan.png" width="420"></picture><br><b>Wo gesucht wird</b><br><sub>Benutzerordner, alle Laufwerke oder eigene Ordner</sub></td>
+  </tr>
+</table>
+
+| Taste / Maus | Aktion |
+|---|---|
+| **←** | Behalten |
+| **→** | Aussortieren |
+| **↑** | Später |
+| **↓** oder **Strg+Z** | Zurück |
+| **Leertaste** | Video abspielen / anhalten |
+| **+ / −** oder **Mausrad** | Hinein- / herauszoomen |
+| **0** | Ans Fenster anpassen |
+| **1** | Originalgröße (100 %) |
+| **Ziehen** | Gezoomtes Bild verschieben |
+| **Doppelklick** | Zwischen 100 % und Einpassen wechseln |
+
+- **Ans Fenster anpassen:** Kleine Bilder werden zuverlässig auf Fenstergröße vergrößert – auch nachdem das Fenster verändert wurde. Abschaltbar (dann höchstens Originalgröße).
+- **Immer sichtbar:** voller Speicherort, Quelle, Abmessungen und Datum, dazu **Im Ordner zeigen**, **Pfad kopieren** und **Mit Standardprogramm öffnen**.
+- **Wo gesucht wird:** Benutzerordner, **alle Laufwerke** (Systemordner werden übersprungen) oder **selbst gewählte Ordner**. Versteckte Dateien werden am Punkt *und* am Windows-Attribut „versteckt“ erkannt.
+- **Videos** (MP4, MOV, MKV, WebM, 3GP, AVI) laufen direkt in der App; auch **HEIC/AVIF**-Fotos lassen sich öffnen.
+
+### Am Computer installieren
+
+- **Windows:** **`SwipeScout.msi`** unter [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) herunterladen und öffnen. Zeigt Windows „Der Computer wurde durch Windows geschützt“: **Weitere Informationen → Trotzdem ausführen** (der Installer hat kein kostenpflichtiges Zertifikat).
+- **Mac (Apple Silicon, M1 oder neuer) – folgt in Kürze:** **`SwipeScout.dmg`** herunterladen, öffnen und **Swipe Scout** in **Programme** ziehen. Beim ersten Start: **Rechtsklick auf die App → Öffnen → Öffnen** (oder Systemeinstellungen → Datenschutz & Sicherheit → „Dennoch öffnen“).
+
+### Updates
+
+Beim ersten Start fragt die App, ob sie nach Updates suchen darf. Wenn ja, schaut sie bei jedem Start kurz im öffentlichen Repository nach; dabei wird nichts über dich gesendet.
+- **Windows & Mac:** „Neue Version verfügbar“ → **Jetzt aktualisieren** – die App lädt, installiert und startet sich selbst neu.
+- **Android:** „Neue Version verfügbar“ → **Jetzt aktualisieren** – die App lädt die neue Version und öffnet den Android-Installer; einmal **Installieren** tippen, dann **Öffnen**. (Android erlaubt Apps außerhalb des Play Store nicht, sich ohne diesen einen Tipp selbst zu ersetzen.)
 
 ## Installieren
 
@@ -197,7 +242,7 @@ Gescannt wird immer alles – der Filter bestimmt nur, was angezeigt wird. Er gi
 
 ## Datenschutz & Sicherheit
 
-- 📴 **100 % offline.** Die App hat keine Internet-Berechtigung und schickt nichts irgendwohin.
+- 📴 **Standardmäßig offline.** Die App geht nur für die Update-Prüfung online – und nur, wenn du das beim ersten Start erlaubt hast. Über dich oder deine Dateien wird nichts gesendet.
 - 🚫 **Keine Werbung, kein Tracking, kein Konto.**
 - 🗑️ **Nichts wird ohne dein Zutun gelöscht.** Wischen markiert nur, Löschen geht zuerst in den Papierkorb.
 
@@ -233,6 +278,7 @@ Seit Android 11 erlaubt Android keiner App mehr den Zugriff auf diesen Ordner.
 
 | Version | Was neu ist |
 |---|---|
+| **4.0** | **Windows- & Mac-Version**, Pfeiltasten, Zoom und Ans-Fenster-anpassen; Update-Prüfung mit „Jetzt aktualisieren“ überall |
 | 3.2 | Wartung, keine sichtbaren Änderungen |
 | 3.1 | Neues App-Icon, „Über“ mit Link, Kästchen nicht mehr abgeschnitten |
 | **3.0** | Papierkorb mit einstellbarer Frist, doppelte/ähnliche/unscharfe Fotos, Sortierung, Speicherstatistik, Hell/Dunkel |
