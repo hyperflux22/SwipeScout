@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/APK_herunterladen-Version_4.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
+    <img src="https://img.shields.io/badge/APK_herunterladen-Version_4.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
   </a>
 </p>
 
@@ -125,8 +125,8 @@ Swipe Scout läuft auch auf **Windows** und **Mac** – mit allen Funktionen der
 
 ### Am Computer installieren
 
-- **Windows:** **`SwipeScout.msi`** unter [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) herunterladen und öffnen. Zeigt Windows „Der Computer wurde durch Windows geschützt“: **Weitere Informationen → Trotzdem ausführen** (der Installer hat kein kostenpflichtiges Zertifikat).
-- **Mac (Apple Silicon, M1 oder neuer) – folgt in Kürze:** **`SwipeScout.dmg`** herunterladen, öffnen und **Swipe Scout** in **Programme** ziehen. Beim ersten Start: **Rechtsklick auf die App → Öffnen → Öffnen** (oder Systemeinstellungen → Datenschutz & Sicherheit → „Dennoch öffnen“).
+- **Windows:** **`SwipeScout.msi`** (oder **`SwipeScout.exe`**) unter [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) herunterladen und öffnen. Zeigt Windows „Der Computer wurde durch Windows geschützt“: **Weitere Informationen → Trotzdem ausführen** (der Installer hat kein kostenpflichtiges Zertifikat).
+- **Mac (Apple Silicon, M1 oder neuer):** **`SwipeScout.dmg`** herunterladen, öffnen und **Swipe Scout** in **Programme** ziehen. Beim ersten Start: **Rechtsklick auf die App → Öffnen → Öffnen** (oder Systemeinstellungen → Datenschutz & Sicherheit → „Dennoch öffnen“).
 
 ### Updates
 
@@ -278,6 +278,7 @@ Seit Android 11 erlaubt Android keiner App mehr den Zugriff auf diesen Ordner.
 
 | Version | Was neu ist |
 |---|---|
+| 4.1 | Windows auch als `.exe`, Mac-`.dmg` in jedem Release, kleinerer Installer |
 | **4.0** | **Windows- & Mac-Version**, Pfeiltasten, Zoom und Ans-Fenster-anpassen; Update-Prüfung mit „Jetzt aktualisieren“ überall |
 | 3.2 | Wartung, keine sichtbaren Änderungen |
 | 3.1 | Neues App-Icon, „Über“ mit Link, Kästchen nicht mehr abgeschnitten |

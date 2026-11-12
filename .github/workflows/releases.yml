@@ -25,7 +25,7 @@ jobs:
           for v in $(ls versions | sort -V); do
             heading=$(grep -m1 "^## $v " CHANGELOG.md | sed "s/^## $v – //")
             awk -v h="## $v " 'index($0, h) == 1 {on=1; next} /^## / {on=0} on' CHANGELOG.md > notes.md
-            printf '\n---\nInstall: download **SwipeScout.apk** below and open it on your phone. License: see LICENSE.\n' >> notes.md
+            printf '\n---\nDownload below: **SwipeScout.apk** (Android), **SwipeScout.msi** or **SwipeScout.exe** (Windows), **SwipeScout.dmg** (Mac, Apple Silicon). License: see LICENSE.\n' >> notes.md
             title="Swipe Scout $v – ${heading:-Version $v}"
             latest=false; [ "$v" = "$newest" ] && latest=true
             if gh release view "v$v" > /dev/null 2>&1; then
