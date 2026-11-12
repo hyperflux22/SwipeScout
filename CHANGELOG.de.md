@@ -9,6 +9,13 @@ Alle Versionen von Swipe Scout. Die Nummern folgen dieser Regel:
 
 Jede Version lässt sich unter [Releases](https://github.com/hyperflux22/SwipeScout/releases) als APK herunterladen.
 
+## 4.1 – Mehr Download-Formate
+
+- Windows: neben dem Installer **`SwipeScout.msi`** gibt es jetzt auch **`SwipeScout.exe`** (Setup-Programm).
+- Mac: **`SwipeScout.dmg`** (Apple Silicon) ist jetzt in jedem Release enthalten.
+- Jedes Release enthält `.apk` (Android), `.msi` und `.exe` (Windows) und `.dmg` (Mac).
+- Kleinerer Windows-Installer (etwa 90 MB statt 160 MB).
+
 ## 4.0 – Windows & Mac, Updates
 
 - **Neu: Swipe Scout für Windows und Mac** mit allen Funktionen der Handy-App.

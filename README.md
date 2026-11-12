@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Version_4.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+    <img src="https://img.shields.io/badge/Download_APK-Version_4.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
   </a>
 </p>
 
@@ -125,8 +125,8 @@ Swipe Scout also runs on **Windows** and **Mac** – with all features of the ph
 
 ### Install on a computer
 
-- **Windows:** download **`SwipeScout.msi`** from [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) and open it. Windows may show “Windows protected your PC” – click **More info → Run anyway** (the installer is not signed with a paid certificate).
-- **Mac (Apple Silicon, M1 or newer) – follows shortly:** download **`SwipeScout.dmg`**, open it and drag **Swipe Scout** into **Applications**. On first start: **right-click the app → Open → Open** (or System Settings → Privacy & Security → “Open anyway”).
+- **Windows:** download **`SwipeScout.msi`** (or **`SwipeScout.exe`**) from [Releases](https://github.com/hyperflux22/SwipeScout/releases/latest) and open it. Windows may show “Windows protected your PC” – click **More info → Run anyway** (the installer is not signed with a paid certificate).
+- **Mac (Apple Silicon, M1 or newer):** download **`SwipeScout.dmg`**, open it and drag **Swipe Scout** into **Applications**. On first start: **right-click the app → Open → Open** (or System Settings → Privacy & Security → “Open anyway”).
 
 ### Updates
 
@@ -277,6 +277,7 @@ Since Android 11, Android no longer allows any app to access this folder.
 
 | Version | What's new |
 |---|---|
+| 4.1 | Windows also as `.exe`, Mac `.dmg` in every release, smaller installer |
 | **4.0** | **Windows & Mac version**, arrow keys, zoom and fit-to-window; update check with “Update now” on all platforms |
 | 3.2 | Maintenance, no visible changes |
 | 3.1 | New app icon, “About” with link, labels no longer cut off |

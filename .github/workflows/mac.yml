@@ -1,0 +1,58 @@
+name: Build Mac
+
+# Builds the Mac app (SwipeScout.dmg, Apple Silicon) and attaches it to release v<version>.
+# Start by hand after the version folder has been published.
+# Needs the repository secret PRIVATE_REPO_TOKEN (read access to the app's source repository).
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version, e.g. 4.1"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  mac:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: public
+      - uses: actions/checkout@v5
+        with:
+          repository: hyperflux22/Bilder
+          ref: v${{ inputs.version }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: src
+          persist-credentials: false
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Build app
+        working-directory: src
+        run: |
+          chmod +x gradlew
+          for i in 1 2 3 4; do ./gradlew --version --no-daemon -q && break; sleep $((i * 15)); done
+          ./gradlew :desktop:createReleaseDistributable -Pedition=standard --no-daemon -q
+      - name: Sign (ad hoc) and package DMG
+        run: |
+          APP=$(ls -d src/desktop/build/compose/binaries/main-release/app/*.app | head -1)
+          codesign --force --deep --sign - "$APP"
+          mkdir -p dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
+          hdiutil create -volname "Swipe Scout" -srcfolder dmg -ov -format UDZO SwipeScout.dmg
+          ls -la SwipeScout.dmg
+      - name: Attach to release and add to versions folder
+        working-directory: public
+        env:
+          GH_TOKEN: ${{ github.token }}
+          V: ${{ inputs.version }}
+        run: |
+          gh release upload "v$V" ../SwipeScout.dmg --clobber
+          mkdir -p "versions/$V" && cp ../SwipeScout.dmg "versions/$V/SwipeScout.dmg"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "versions/$V/SwipeScout.dmg"
+          git commit -m "Mac app for version $V" && git push
