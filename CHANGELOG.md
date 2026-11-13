@@ -9,6 +9,20 @@ All versions of Swipe Scout. The numbers follow this rule:
 
 Every version can be downloaded as an APK under [Releases](https://github.com/hyperflux22/SwipeScout/releases).
 
+## 5.0 – Data Scout: 2 in 1
+
+- **New: Data Scout.** One tap switches Swipe Scout (photos & videos) to Data Scout – the same app for **all files**:
+  documents, PDFs, spreadsheets, presentations, archives, installers, disk images, music, voice messages, e-books …
+  Files are recognized by their content (a PDF or ZIP without extension is found too).
+- **What is the file for?** The sort view shows **path, name, last change, age and purpose** of every file
+  (e.g. “Installer – usually not needed after installing”, “Cache – recreated automatically”) with a hint:
+  usually safe to delete, check first or personal file.
+- **Storage as blocks:** folders and files drawn as blocks as big as the space they take; open folders by tapping,
+  or show blocks by file type.
+- New filters: file type and **only safe to delete**; duplicate search works for all files.
+- Path, age and purpose are now also shown for photos and videos.
+- On Android, Windows and Mac. Downloads: `.apk`, `.msi`, `.exe`, `.dmg`.
+
 ## 4.1 – More download formats
 
 - Windows: besides the **`SwipeScout.msi`** installer there is now also **`SwipeScout.exe`** (setup program).
