@@ -4,18 +4,17 @@
   <img src="docs/icon-512.png" width="96" alt="Swipe Scout icon"><br><br>
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-de-light.png">
-    <img src="docs/banner-de-dark.png" alt="Swipe Scout – Bilder & Videos aufräumen per Wisch" width="100%">
+    <img src="docs/banner-de-dark.png" alt="Swipe Scout + Data Scout – 2 in 1: Bilder, Videos und alle Dateien per Wisch aufräumen" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <b>Finde alle Bilder und Videos auf deinem Android-Handy – auch versteckte, doppelte, ähnliche und unscharfe –<br>
-  und räume sie mit einem Wisch auf.</b>
+  <b>2 in 1: <i>Swipe Scout</i> findet jedes Foto und Video – auch versteckte, doppelte, ähnliche und unscharfe.<br><i>Data Scout</i> macht dasselbe mit <u>allen</u> Dateien – Dokumente, Archive, Installer, Musik …<br>Mit einer Taste umschalten und per Wisch aufräumen.</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/APK_herunterladen-Version_4.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
+    <img src="https://img.shields.io/badge/APK_herunterladen-Version_5.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="APK herunterladen">
   </a>
 </p>
 
@@ -32,6 +31,7 @@
 ## Inhalt
 
 - [Warum Swipe Scout?](#warum-swipe-scout)
+- [Data Scout – alle Dateien](#data-scout--alle-dateien)
 - [Bildschirmfotos](#bildschirmfotos)
 - [Windows & Mac](#windows--mac)
 - [Installieren](#installieren)
@@ -61,6 +61,44 @@ erkennt Bilder und Videos **am Inhalt der Datei** – und du sortierst sie so sc
 | Filter nach Quelle (Kamera, WhatsApp …) | teilweise | ✓ |
 | Papierkorb mit frei einstellbarer Frist | teilweise | ✓ |
 | Als ZIP sichern, in Ordner kopieren | ✗ | ✓ |
+| **Alle Dateien** (Dokumente, Archive, Installer …) mit Nutzen und Größen-Blöcken | ✗ | ✓ |
+
+## Data Scout – alle Dateien
+
+**Neu in 5.0:** Swipe Scout ist jetzt **2 in 1**. Ein Tipp auf den Umschalter macht aus **Swipe Scout** (Bilder & Videos)
+den **Data Scout** – dieselbe App für **alle Dateien**: Dokumente, PDFs, Tabellen, Archive, Installer, Abbilder,
+Musik, Sprachnachrichten, E-Books und mehr. Gewischt wird genau gleich: **links behalten, rechts aussortieren, oben später**.
+
+- **Wozu ist die Datei da?** Jede Datei zeigt **Pfad, Name, letzte Änderung und Alter** – und ihren **Nutzen**,
+  z.B. „Installationsdatei für eine App – nach der Installation meist überflüssig“ oder „Cache – wird automatisch neu erstellt“,
+  mit Hinweis: **meist sicher löschbar**, **vorher ansehen** oder **persönliche Datei**.
+- **Speicher als Blöcke:** jeder Ordner und jede Datei als Block, so groß wie der belegte Platz – Ordner antippen zum
+  Öffnen, Datei antippen zum Ansehen, oder umschalten auf **Blöcke nach Dateiart**.
+- **Am Inhalt erkannt:** ein PDF oder ZIP ohne Endung wird trotzdem gefunden; Dateien mit falscher Endung werden markiert.
+- **Filter:** nach Dateiart, versteckt oder nicht, Quelle, **nur sicher löschbare**, Doppelte, größte zuerst.
+- Auf dem Handy und auf **Windows & Mac**.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/12-files-scan.png"><img src="docs/screenshots/de/dark/12-files-scan.png" width="270"></picture><br><b>Eine Taste: Data Scout</b><br><sub>Umschalten zwischen Bildern & Videos und allen Dateien</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/13-files-sort.png"><img src="docs/screenshots/de/dark/13-files-sort.png" width="270"></picture><br><b>Jede Datei sortieren</b><br><sub>Pfad, Name, zuletzt geändert, Alter – und wozu die Datei dient</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/14-files-blocks.png"><img src="docs/screenshots/de/dark/14-files-blocks.png" width="270"></picture><br><b>Speicher als Blöcke</b><br><sub>Jeder Block ist so groß wie seine Dateien; Ordner antippen zum Öffnen</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/15-files-types.png"><img src="docs/screenshots/de/dark/15-files-types.png" width="270"></picture><br><b>Blöcke nach Dateiart</b><br><sub>Welche Art von Datei am meisten Platz belegt</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/16-files-all.png"><img src="docs/screenshots/de/dark/16-files-all.png" width="270"></picture><br><b>Alle Dateien</b><br><sub>Dokumente, Archive, Installer, Musik … auf einen Blick</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/de/light/17-files-filter.png"><img src="docs/screenshots/de/dark/17-files-filter.png" width="270"></picture><br><b>Nach Art filtern</b><br><sub>„Nur sicher löschbare“: Cache, Protokolle, Download-Reste, Installer</sub></td>
+  </tr>
+</table>
+
+**Data Scout auf Windows & Mac:**
+
+<table>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/6-files-sort.png"><img src="docs/screenshots/desktop/de/dark/6-files-sort.png" width="420"></picture><br><b>Dateien mit den Pfeiltasten sortieren</b><br><sub>Nutzen und Alter rechts</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/de/light/7-files-blocks.png"><img src="docs/screenshots/desktop/de/dark/7-files-blocks.png" width="420"></picture><br><b>Speicher als Blöcke</b><br><sub>Name und Größe beim Überfahren, Klick zum Öffnen</sub></td>
+  </tr>
+</table>
 
 ## Bildschirmfotos
 
@@ -278,6 +316,7 @@ Seit Android 11 erlaubt Android keiner App mehr den Zugriff auf diesen Ordner.
 
 | Version | Was neu ist |
 |---|---|
+| **5.0** | **Data Scout (2 in 1):** alle Dateien mit Nutzen, Alter und Größen-Blöcken; Umschalten mit einer Taste |
 | 4.1 | Windows auch als `.exe`, Mac-`.dmg` in jedem Release, kleinerer Installer |
 | **4.0** | **Windows- & Mac-Version**, Pfeiltasten, Zoom und Ans-Fenster-anpassen; Update-Prüfung mit „Jetzt aktualisieren“ überall |
 | 3.2 | Wartung, keine sichtbaren Änderungen |

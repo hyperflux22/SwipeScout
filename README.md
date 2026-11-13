@@ -4,18 +4,17 @@
   <img src="docs/icon-512.png" width="96" alt="Swipe Scout icon"><br><br>
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-en-light.png">
-    <img src="docs/banner-en-dark.png" alt="Swipe Scout – clean up photos & videos with a swipe" width="100%">
+    <img src="docs/banner-en-dark.png" alt="Swipe Scout + Data Scout – 2 in 1: clean up photos, videos and all your files with a swipe" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <b>Find every photo and video on your Android phone – even hidden, duplicate, similar and blurry ones –<br>
-  and clean them up with a swipe.</b>
+  <b>2 in 1: <i>Swipe Scout</i> finds every photo and video – even hidden, duplicate, similar and blurry ones.<br><i>Data Scout</i> does the same for <u>all</u> your files – documents, archives, installers, music …<br>Switch with one tap and clean up with a swipe.</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/hyperflux22/SwipeScout/releases/latest/download/SwipeScout.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Version_4.1-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
+    <img src="https://img.shields.io/badge/Download_APK-Version_5.0-6C7CFF?style=for-the-badge&logo=android&logoColor=white" alt="Download APK">
   </a>
 </p>
 
@@ -32,6 +31,7 @@
 ## Contents
 
 - [Why Swipe Scout?](#why-swipe-scout)
+- [Data Scout – all files](#data-scout--all-files)
 - [Screenshots](#screenshots)
 - [Windows & Mac](#windows--mac)
 - [Install](#install)
@@ -61,6 +61,44 @@ recognizes photos and videos **by their content** – and lets you sort them as 
 | Filter by source (camera, WhatsApp …) | partly | ✓ |
 | Trash with a freely adjustable time limit | partly | ✓ |
 | Save as ZIP, copy to a folder | ✗ | ✓ |
+| **All files** (documents, archives, installers …) with purpose and size blocks | ✗ | ✓ |
+
+## Data Scout – all files
+
+**New in 5.0:** Swipe Scout is now **2 in 1**. One tap on the switch turns **Swipe Scout** (photos & videos) into
+**Data Scout** – the same app for **all files**: documents, PDFs, spreadsheets, archives, installers, disk images,
+music, voice messages, e-books and more. Swiping works exactly the same: **left keep, right sort out, up later**.
+
+- **What is this file for?** Every file shows its **path, name, last change and age** – and its **purpose**,
+  e.g. “Installer for an app – usually not needed after installing” or “Cache – recreated automatically”,
+  with a hint: **usually safe to delete**, **check first** or **personal file**.
+- **Storage as blocks:** every folder and file is drawn as a block as big as the space it takes – tap a folder to
+  open it, tap a file to view it, or switch to **blocks by file type**.
+- **Recognized by content:** a PDF or ZIP without extension is still found; files with a wrong extension are marked.
+- **Filters:** by file type, hidden or not, source, **only safe to delete**, duplicates, largest first.
+- On the phone and on **Windows & Mac**.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/12-files-scan.png"><img src="docs/screenshots/en/dark/12-files-scan.png" width="270"></picture><br><b>One tap: Data Scout</b><br><sub>Switch between photos & videos and all files</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/13-files-sort.png"><img src="docs/screenshots/en/dark/13-files-sort.png" width="270"></picture><br><b>Sort every file</b><br><sub>Path, name, last changed, age – and what the file is for</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/14-files-blocks.png"><img src="docs/screenshots/en/dark/14-files-blocks.png" width="270"></picture><br><b>Storage as blocks</b><br><sub>Each block is as big as its files; tap a folder to open it</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/15-files-types.png"><img src="docs/screenshots/en/dark/15-files-types.png" width="270"></picture><br><b>Blocks by file type</b><br><sub>Which kind of file takes the most space</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/16-files-all.png"><img src="docs/screenshots/en/dark/16-files-all.png" width="270"></picture><br><b>All files</b><br><sub>Documents, archives, installers, music … at a glance</sub></td>
+    <td align="center" width="33%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/en/light/17-files-filter.png"><img src="docs/screenshots/en/dark/17-files-filter.png" width="270"></picture><br><b>Filter by type</b><br><sub>“Only safe to delete”: cache, logs, leftover downloads, installers</sub></td>
+  </tr>
+</table>
+
+**Data Scout on Windows & Mac:**
+
+<table>
+  <tr>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/6-files-sort.png"><img src="docs/screenshots/desktop/en/dark/6-files-sort.png" width="420"></picture><br><b>Sort files with the arrow keys</b><br><sub>Purpose and age on the right</sub></td>
+    <td align="center" width="50%"><picture><source media="(prefers-color-scheme: light)" srcset="docs/screenshots/desktop/en/light/7-files-blocks.png"><img src="docs/screenshots/desktop/en/dark/7-files-blocks.png" width="420"></picture><br><b>Storage as blocks</b><br><sub>Hover to see name and size, click to open</sub></td>
+  </tr>
+</table>
 
 ## Screenshots
 
@@ -277,6 +315,7 @@ Since Android 11, Android no longer allows any app to access this folder.
 
 | Version | What's new |
 |---|---|
+| **5.0** | **Data Scout (2 in 1):** all files with purpose, age and size blocks; switch with one tap |
 | 4.1 | Windows also as `.exe`, Mac `.dmg` in every release, smaller installer |
 | **4.0** | **Windows & Mac version**, arrow keys, zoom and fit-to-window; update check with “Update now” on all platforms |
 | 3.2 | Maintenance, no visible changes |
