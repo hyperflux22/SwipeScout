@@ -1,14 +1,17 @@
 name: Build Mac
 
-# Builds the Mac app (SwipeScout.dmg, Apple Silicon) and attaches it to release v<version>.
-# Start by hand after the version folder has been published.
-# Needs the repository secret PRIVATE_REPO_TOKEN (read access to the app's source repository).
+# Packages the Mac app (SwipeScout.dmg, Apple Silicon) from prebuilt app files and attaches it to release v<version>.
+# The app files (compiled jars, no source code) are pushed to a temporary branch; it is deleted afterwards.
 on:
   workflow_dispatch:
     inputs:
       version:
         description: "Release version, e.g. 4.1"
         required: true
+      payload:
+        description: "Temporary branch with the app files"
+        required: true
+        default: mac-payload
 
 permissions:
   contents: write
@@ -22,29 +25,44 @@ jobs:
           path: public
       - uses: actions/checkout@v5
         with:
-          repository: hyperflux22/Bilder
-          ref: v${{ inputs.version }}
-          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-          path: src
-          persist-credentials: false
+          ref: ${{ inputs.payload }}
+          path: payload
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
-      - name: Build app
-        working-directory: src
+      - name: Build app (jpackage)
+        env:
+          V: ${{ inputs.version }}
         run: |
-          chmod +x gradlew
-          for i in 1 2 3 4; do ./gradlew --version --no-daemon -q && break; sleep $((i * 15)); done
-          ./gradlew :desktop:createReleaseDistributable -Pedition=standard --no-daemon -q
+          jpackage --type app-image --dest out \
+            --input payload/jars --main-jar desktop.jar --main-class app.swipescout.desktop.MainKt \
+            --name "Swipe Scout" --app-version "$V.0" --vendor "Swipe Scout" --description "Swipe Scout" \
+            --icon payload/icon.icns --mac-package-identifier io.github.hyperflux22.swipescout \
+            --add-modules java.desktop,java.instrument,java.management,java.prefs,java.xml,jdk.unsupported,jdk.crypto.ec,jdk.localedata,jdk.charsets \
+            --jlink-options "--strip-debug --no-header-files --no-man-pages --strip-native-commands" \
+            --java-options "-Xmx2g" --java-options "-Dcompose.application.configure.swing.globals=true" \
+            --java-options "-Djpackage.app-version=$V.0"
+          ls out
       - name: Sign (ad hoc) and package DMG
         run: |
-          APP=$(ls -d src/desktop/build/compose/binaries/main-release/app/*.app | head -1)
+          APP="out/Swipe Scout.app"
           codesign --force --deep --sign - "$APP"
+          codesign --verify --deep "$APP"
           mkdir -p dmg && cp -R "$APP" dmg/ && ln -s /Applications dmg/Applications
           hdiutil create -volname "Swipe Scout" -srcfolder dmg -ov -format UDZO SwipeScout.dmg
           ls -la SwipeScout.dmg
-      - name: Attach to release and add to versions folder
+      - name: Smoke test (app starts)
+        run: |
+          "out/Swipe Scout.app/Contents/MacOS/Swipe Scout" > run.log 2>&1 &
+          sleep 25
+          if kill -0 $! 2>/dev/null; then echo "app is running"; kill $!; else echo "app exited"; cat run.log; exit 1; fi
+          cat run.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SwipeScout-mac
+          path: SwipeScout.dmg
+      - name: Attach to release, add to versions folder, delete temporary branch
         working-directory: public
         env:
           GH_TOKEN: ${{ github.token }}
@@ -56,3 +74,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "versions/$V/SwipeScout.dmg"
           git commit -m "Mac app for version $V" && git push
+          git push origin --delete "${{ inputs.payload }}"
